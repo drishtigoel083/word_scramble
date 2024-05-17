@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WORD SCRAMBLE GAME</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Jacquard+12&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Caveat:wght@400..700&family=Jacquard+12&family=Jersey+25+Charted&family=Permanent+Marker&display=swap" rel="stylesheet">
+    <script src="js/words.js" defer></script>
+    <script src="js/game.js" defer></script>
+   
+    
+</head>
+<body>
+    <div class="box">
+        <h2>WORD SCRAMBLE</h2>
+        <div class="content">
+            <p class="word"></p>
+            <div class="details">
+            <p class="hint">Hint:<span></span></p>
+            <p class="time">Time left:<span><b>30</b>s</span></p>
+            </div>
+        
+        <input type="text" placeholder="Enter a valid word">
+        <div class="buttons">
+            <button class="refresh">Refresh Word</button>
+            <button class="check">Check Word</button>
+        </div>
+        </div>
+    </div>
+</body>
+<script src="game.js"></script>
+<script src="words.js"></script>
+</html>
